@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Tienda de comics</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+<body>
+  <div class="app-container">
+    <header id="app-header">
+      <h1>Tienda de Comics</h1>
+      <nav id="menu" class="menu"> 
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/employee">Empleados</a></li>
+          <li><a href="#">Salir</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="app-body">    
+      <form class="search-form">
+        <input type="text">
+        <button type="submit">Buscar</button>
+      </form>
+      <div class="adicionar">
+        <buttom class="buttom"> + Adicionar Comic</buttom>
+      </div>
+      <div class="comics">
+        <article class="comic" >
+          <div class="left img-container">
+            <img alt="imagen" src="img/comic.jpg">
+          </div>
+          <div class="right info">
+            <h1>Nombre del Comic</h1>
+            <p>Descripción del comic</p>
+          </div>
+          <div class="ver-comentarios">
+            <buttom>Ver Comentarios</buttom>
+          </div>
+        </article>
+      </div>
+    </section>
+    <footer id="app-footer">
+      <p>Prueba técnica Pragma</p>
+    </footer>
+  </div>
+</body>
+</html>
